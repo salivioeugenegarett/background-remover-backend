@@ -9,6 +9,7 @@ import io
 app = FastAPI()
 
 origins = [
+    "http://localhost:3000/index.html"
     "http://localhost",
     "http://localhost:8080",
     "https://bgerasee.netlify.app/",
